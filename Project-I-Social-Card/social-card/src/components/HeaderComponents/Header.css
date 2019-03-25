@@ -3,10 +3,8 @@
     display: flex;
     justify-content: flex-start;
 }
-.app {
-    max-width: 500px;
-}
-.backgroundImage img {
-    width: 500px;
-    height: auto;
+
+
+small {
+    color: grey;
 }

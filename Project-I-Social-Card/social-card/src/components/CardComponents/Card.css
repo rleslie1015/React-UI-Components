@@ -1,1 +1,8 @@
 /* All styles for your Card Components live here */
+.cardContent {
+
+    color: black;
+}
+a {
+    text-decoration: none;
+}
