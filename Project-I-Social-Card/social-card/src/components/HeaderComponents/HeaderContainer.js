@@ -5,10 +5,10 @@ import HeaderTitle from "./HeaderTitle";
 import HeaderContent from "./HeaderContent";
 
 function HeaderContainer () {
-    return <div>
+    return <div className ="headerClass">
         <ImageThumbnail />
         <HeaderTitle />
-        <HeaderContent />
+      
     </div>
 }
 export default HeaderContainer;

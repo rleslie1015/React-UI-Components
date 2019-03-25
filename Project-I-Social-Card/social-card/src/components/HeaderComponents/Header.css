@@ -1,4 +1,12 @@
 /* All styles for your header Components live here */
-.HeaderTitle {
-    display: inline;
+.headerClass{
+    display: flex;
+    justify-content: flex-start;
+}
+.app {
+    max-width: 800px;
+}
+.backgroundImage img {
+    width: 800px;
+    height: auto;
 }
