@@ -4,9 +4,9 @@
     justify-content: flex-start;
 }
 .app {
-    max-width: 800px;
+    max-width: 500px;
 }
 .backgroundImage img {
-    width: 800px;
+    width: 500px;
     height: auto;
 }

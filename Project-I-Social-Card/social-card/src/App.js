@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="app">
       <HeaderContainer />
-      <CardContainer />
+      <a href="https://www.reactjs.org"><CardContainer /></a>
       <h3>Welcome to React Social Card!</h3>
       <p>
         Begin by exploring the `components` directory. You'll notice we have a

@@ -4,7 +4,7 @@ import HeaderContent from "./HeaderContent";
 function HeaderTitle () {
     return (
         <div className = "HeaderTitle">
-            <p><strong>Lambda</strong>  <small>@LambdaSchool</small> {Date()}</p>
+            <p><strong>Lambda</strong>  <small>@LambdaSchool {Date()} </small> </p>
             <HeaderContent />
         </div>
     )
