@@ -1,3 +1,9 @@
 import React from 'react';
 import './Header.css';
-export default props => <h1>{props}</h1>
+import ImageThumbnail from "./ImageThumbnail";
+function HeaderContainer () {
+    return <div>
+        <ImageThumbnail />
+    </div>
+}
+export default HeaderContainer;
