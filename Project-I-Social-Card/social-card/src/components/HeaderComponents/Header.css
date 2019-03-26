@@ -1,1 +1,22 @@
 /* All styles for your header Components live here */
+.headerClass{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imageThumbnail {
+    width: 50px;
+    height: auto;
+
+}
+small {
+    color: grey;
+}
+p {
+    font-size: 14px;
+    margin: 1px 0px 11px 0px;
+}
+div .imageContainer {
+  
+    width: 155px;
+}

@@ -1,1 +1,20 @@
 /* All styles for your Card Components live here */
+.cardContainer {
+
+    margin-left: 55px;
+}
+.cardContent {
+
+    font-size: 7px;
+    
+    color: black;
+}
+a {
+    text-decoration: none;
+}
+.imageContainer {
+    width: 50%;
+}
+.cardContent small {
+    font-size: 14px;
+}
