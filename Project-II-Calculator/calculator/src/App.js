@@ -1,11 +1,15 @@
 import React from 'react';
 import './App.css';
 import NumberButton from "./components/ButtonComponents/NumberButton";
-
+import ActionButton from "./components/ButtonComponents/ActionButton";
+import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay";
+import OperatorButton from "./components/ButtonComponents/OperatorButton";
 const App = () => {
   return (
     
     <div>
+      <CalculatorDisplay text="735713" />
+      <ActionButton text="clear"/>
       <div>
     <NumberButton text="7"/>
       <NumberButton text="8"/>
@@ -23,8 +27,11 @@ const App = () => {
       <NumberButton text="3"/>
       </div>
 
-  
-      
+      <ActionButton buttonStyle="actionButton" text="0"/>
+      <OperatorButton buttonStyle="operatorButton" text="/" />
+      <OperatorButton buttonStyle="operatorButton" text="*" />
+      <OperatorButton buttonStyle="operatorButton" text="-" />
+      <OperatorButton buttonStyle="operatorButton" text="+" />
       <h3>Welcome to React Calculator</h3>
       <p>
         We have given you a starter project. You'll want to build out your
